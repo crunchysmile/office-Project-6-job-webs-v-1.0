@@ -1,0 +1,83 @@
+/* All codes For Responsive ness */
+@media only screen and (max-width:800px){
+    .container{
+        width: 100%;
+    }
+    .row1 strong{
+        font-size: 15px;
+    }
+    .top-head{
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (max-width:680px){
+     .row li ,.row7 span ,.row8 span ,.row9 span, .row10 span ,.row11 span, .row12 span , .row13 span{
+       font-size: 15px;
+    }
+    .row1 strong{
+        font-size: 14px;
+    }
+    .top-head{
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width:650px){
+    .row li, .row7 span,.row8 span ,.row9 span, .row10 span ,.row11 span, .row12 span , .row13 span{
+      font-size: 13px;
+    }
+   .row1 strong{
+    font-size: 13px;
+    }
+    .top-head{
+        font-size: 16px;
+    }
+    table td{
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width:560px){
+    .row li ,.row8 span ,.row9 span, .row10 span ,.row11 span, .row12 span , .row13 span {
+      font-size: 12px;
+   }
+   .top-head,.row7 span{
+    font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width:540px){
+    .row li ,.row8 span ,.row9 span, .row10 span ,.row11 span, .row12 span , .row13 span{
+      font-size: 10px;
+   }
+   .top-head,.row7 span{
+    font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+    .row li ,.row8 span ,.row9 span, .row10 span ,.row11 span, .row12 span , .row13 span{
+      font-size: 8px;
+   }
+   .top-head,.row7 span{
+    font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .row li ,.row8 span ,.row9 span, .row10 span ,.row11 span, .row12 span , .row13 span{
+      font-size: 7px;
+   }
+}
+
+@media only screen and (max-width:330px){
+    .row li ,.row8 span ,.row9 span, .row10 span ,.row11 span, .row12 span , .row13 span{
+      font-size: 6.7px;
+   }
+}

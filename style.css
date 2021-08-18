@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+  text-decoration: none;   
+}
+/* ===== Common css ===== */
+li{
+    list-style-type:disc;
+    font-family: Arial, Helvetica, Sans-Serif;
+}
+
+.text-center{
+    text-align: center;
+}
+.wd-100{
+    width:100%;
+}
+/* ===== Common css ===== */
+.container{
+    max-width: 700px;
+    padding: 1rem;
+    width:90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.container table,tr{
+   border: 1px solid rgb(0, 7, 0);
+   /* border-collapse: collapse; */
+   
+}
+.container table tr{
+    border: 1px solid rgb(0, 7, 0);
+    border-collapse: collapse;
+}
+table{
+    /* font-size: 75%; */
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+table td{
+    padding: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+table p{
+    margin: 0.5rem;
+}
+table ul{
+    padding-left: 1rem;
+}
+table ul li{
+    margin: 1em;
+    font-size:1rem;
+    color: rgb(63, 60, 60);
+}
+
+/* ============== row1 ============== */
+table tr.row1 p{
+    font-size: 1rem;
+}
+
+/* ============== row2 ============== */
+table tr.row2 p{
+    font-size: 1rem;
+}
+table tr.row2 ul strong{
+    color: rgb(0, 0, 0);
+}
+
+/* ============= row3 =============== */
+table tr.row3 p{
+    font-size: 1rem;
+}
+table tr.row3 ul strong{
+    color: rgb(0, 0, 0);
+}
+
+/* ============= row4 =============== */
+table tr.row4 p{
+    font-size: 1rem;
+}
+table tr.row4 ul strong{
+    color: rgb(0, 0, 0);
+}
+/* ============= row5 =============== */
+table tr.row5 p{
+    font-size: 1rem;
+}
+table tr.row5 ul strong{
+    color: rgb(0, 0, 0);
+}
+/* ============= row6 =============== */
+table tr.row6 p{
+    font-size: 1rem;
+}
+table tr.row6 ul strong{
+    color: rgb(0, 0, 0);
+}
+/* ============= row7 =============== */
+table tr.row7 p{
+    font-size: 1rem;
+}
+table tr.row7 ul strong{
+    color: rgb(0, 0, 0);
+}
+.row7 td{
+    border-collapse: separate;
+}
